@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "a8c-test-web-extension",
+  "version": "0.1",
+  "description": "a8c-test-web-extension description",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://developer.mozilla.org/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [],
+  "icons": {
+    "64": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "a8c-test-web-extension (browserAction)",
+    "default_icon": {
+      "64": "icon.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

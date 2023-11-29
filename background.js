@@ -1,0 +1,1 @@
+console.log("a8c-test-web-extension - background page loaded");
